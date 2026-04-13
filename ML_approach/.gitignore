@@ -1,0 +1,71 @@
+# ------------------------------
+# Python cache and bytecode
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ------------------------------
+# Virtual environments
+# ------------------------------
+venv/
+.env
+__pycache__/
+*.pyc
+
+# ------------------------------
+# Jupyter
+# ------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------
+# Tool caches / test artifacts
+# ------------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# ------------------------------
+# Build / packaging
+# ------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ------------------------------
+# IDE/editor
+# ------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------------
+# OS files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Streamlit local state
+# ------------------------------
+.streamlit/secrets.toml
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# Optional: large model files
+# Keep commented if you want models tracked in Git.
+# ------------------------------
+# *.safetensors
+# *.pth
+# *.pkl
