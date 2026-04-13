@@ -41,19 +41,14 @@ Fake News Detection/
     │       └── lstm_fake_news_model.pth
     └── Transformers (BERT)/
         ├── Bert_notebook.ipynb
-        └── model/
-            ├── config.json
-            ├── model.safetensors
-            ├── tokenizer.json
-            └── tokenizer_config.json
 ```
 
 ## Dataset
 
 The project uses two CSV files:
 
-- `data/Fake.csv`
-- `data/True.csv`
+- `Fake.csv`
+- `True.csv`
 
 Public dataset source:
 
@@ -93,9 +88,9 @@ streamlit run app.py
 
 Then open the local URL shown in your terminal (usually `http://localhost:8501`).
 
-ML interface link (to update later):
+ML interface link :
 
-- ......
+- fake-news-detection-adjghrijzvsp6xusayeams.streamlit.app
 
 ### Important note
 
