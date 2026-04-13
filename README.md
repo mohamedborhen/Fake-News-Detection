@@ -88,10 +88,6 @@ streamlit run app.py
 
 Then open the local URL shown in your terminal (usually `http://localhost:8501`).
 
-ML interface link :
-
-- fake-news-detection-adjghrijzvsp6xusayeams.streamlit.app
-
 ### Important note
 
 In `ML approach/app.py`, model paths are currently absolute and local to one machine. For portability on GitHub/other machines, use relative paths such as:
@@ -127,12 +123,6 @@ Notebook: `DL approach/Transformers (BERT)/Bert_notebook.ipynb`
 - Fine-tune `bert-base-uncased` for sequence classification
 - Evaluate and save trained artifacts
 
-Saved artifacts:
-
-- `config.json`
-- `model.safetensors`
-- `tokenizer.json`
-- `tokenizer_config.json`
 
 ## Suggested Environment
 
